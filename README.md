@@ -15,7 +15,9 @@ The data to be saved to the database can be found in the `seeds.rb`. Use the inf
 2. As a user, I should be able to go to the index page of the `campers` and see the list of all the campers in my database.### complete
  When I click a name, I should go to the show page for that `camper`. The show page should show the `camper's` name, their age and the list of activities that they have signed up for.
 
-3. As a user, I should be able to go to the index page of the `activities` and see the list of all the activities in my database. When I click a name, I should go to the show page for that `activity`. The show page should show the `activity's` name and its difficulty level.
+3. As a user, I should be able to go to the index page of the `activities` and see the list of all the activities in my database. 
+
+When I click a name, I should go to the show page for that `activity`. The show page should show the `activity's` name and its difficulty level.
 
 4. As a user, I should be able to fill out a form to create a new `signup` that will associate a `camper` with an `activity`. I should be able to choose an existing `activity`, choose an existing `camper` and add a time. Upon a successful creation, I should be redirected to the `camper's` show page.
 

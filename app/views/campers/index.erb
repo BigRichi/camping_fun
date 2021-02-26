@@ -7,7 +7,7 @@
         <span> These are our campers </span></br>
 
         <% @campers.each do |camper| %>
-          <li>  <%= link_to camper.name %> </li> 
+          <li>  <%= link_to camper.name ,camper %> </li> 
 
         <% end %>
 

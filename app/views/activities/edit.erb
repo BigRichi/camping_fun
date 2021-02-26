@@ -1,0 +1,9 @@
+<h2> Add a new activity </h2>
+
+<%= form_for @activity do |form_helper| %></br>
+    <%= form_helper.label :name %>
+    <%= form_helper.text_field :name %></br>
+    <%= form_helper.label :age %>
+    <%= form_helper.number_field :difficulty %></br>
+    <%= form_helper.submit "Done!" %>
+    <%end%>

@@ -1,0 +1,72 @@
+{
+  "shapes" : [
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"rect\",\n  \"position\" : \"{200, 60}\",\n  \"angle\" : 0,\n  \"size\" : \"{100, 70}\",\n  \"identifier\" : \"6276C045-914E-4FD1-ACDE-08E0654BE908\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_4\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 2,\n    \"font\" : \"Helvetica,14.0\"\n  },\n  \"value\" : \"campers\",\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"rect\",\n  \"position\" : \"{440, 190}\",\n  \"angle\" : 0,\n  \"size\" : \"{100, 70}\",\n  \"identifier\" : \"DD604460-39B8-44DA-98C1-FD4576F96242\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_4\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 2,\n    \"font\" : \"Helvetica,14.0\"\n  },\n  \"value\" : \"activities\",\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"rect\",\n  \"position\" : \"{200, 315}\",\n  \"angle\" : 0,\n  \"size\" : \"{100, 70}\",\n  \"identifier\" : \"49337068-A27F-493A-AAE1-83189E430093\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_4\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica,14.0\",\n    \"textAlignment\" : 2\n  },\n  \"value\" : \"activity\",\n  \"isRelative\" : false\n}"
+    },
+    {
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{440, 225}\",\n  \"value\" : {\n    \"labels\" : [\n\n    ]\n  },\n  \"identifier\" : \"45471665-B1FA-4F02-A35D-7F2C4A92B5DD\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"privateStyle\" : {\n    \"connectorMode\" : 2,\n    \"crossStyle\" : \"round\"\n  },\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{-0.5, 0}\"\n  },\n  \"sourcePoint\" : \"{300, 95}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0.5, 0}\"\n  }\n}",
+      "class" : "connector"
+    },
+    {
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{490, 260}\",\n  \"identifier\" : \"527FEF85-B7D7-4D99-B756-74613FE54213\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"privateStyle\" : {\n    \"crossStyle\" : \"round\"\n  },\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, 0.5}\"\n  },\n  \"sourcePoint\" : \"{300, 350}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0.5, 0}\"\n  }\n}",
+      "class" : "connector"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{200, 385}\",\n  \"angle\" : 0,\n  \"size\" : \"{100, 70}\",\n  \"identifier\" : \"998897A4-6036-4ED3-8A50-5C20A90B021E\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_11\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica,14.0\",\n    \"textAlignment\" : 0,\n    \"textVerticalAlignment\" : 1\n  },\n  \"value\" : \"String: name\\nInteger: dificulty level\",\n  \"isRelative\" : false\n}"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{200, 130}\",\n  \"angle\" : 0,\n  \"size\" : \"{100, 60}\",\n  \"identifier\" : \"9992F1AB-A547-4946-A293-F4547E595355\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_11\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 0,\n    \"font\" : \"Helvetica,14.0\",\n    \"textVerticalAlignment\" : 1\n  },\n  \"value\" : \"String: name\\ninteger: age\\n\",\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{540, 180}\",\n  \"angle\" : 0,\n  \"size\" : \"{150, 80}\",\n  \"identifier\" : \"33906A9C-8F0D-4650-91D6-9861E3163EAE\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_11\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 0,\n    \"font\" : \"Helvetica,14.0\",\n    \"textVerticalAlignment\" : 1\n  },\n  \"value\" : \"campers: belongs_to\\nactivity: belongs_to\",\n  \"isRelative\" : false\n}"
+    }
+  ],
+  "frame" : [
+    [
+      0,
+      0
+    ],
+    [
+      827,
+      1169
+    ]
+  ],
+  "terminals" : {
+    "45471665-B1FA-4F02-A35D-7F2C4A92B5DD" : [
+      "6276C045-914E-4FD1-ACDE-08E0654BE908",
+      "DD604460-39B8-44DA-98C1-FD4576F96242"
+    ],
+    "527FEF85-B7D7-4D99-B756-74613FE54213" : [
+      "49337068-A27F-493A-AAE1-83189E430093",
+      "DD604460-39B8-44DA-98C1-FD4576F96242"
+    ]
+  },
+  "design" : {
+    "connectorPathStyle" : "rounded",
+    "themeName" : "office",
+    "paper" : {
+      "rightMargin" : 20,
+      "bottomMargin" : 20,
+      "topMargin" : 20,
+      "name" : "a4",
+      "leftMargin" : 20,
+      "ori" : true
+    },
+    "autoFrame" : true,
+    "showPageMarker" : true
+  },
+  "showsGrids" : true,
+  "version" : "0.0.2"
+}

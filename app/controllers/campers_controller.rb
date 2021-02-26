@@ -16,6 +16,12 @@ class CampersController < ApplicationController
 
     def show
         @camper = Camper.find(params[:id])
+        @activities = @camper.activities
     end
+
+    def edit
+        @camper = Camper.find(params[:id])
+    end
+
 
 end
