@@ -1,3 +1,11 @@
+Signup.destroy_all
+Camper.destroy_all
+Activity.destroy_all
+Signup.reset_pk_sequence
+Camper.reset_pk_sequence
+Activity.reset_pk_sequence
+
+
 camper1 = Camper.create(name: 'Caitlin',age: 8)
 camper2 = Camper.create(name: 'Lizzie', age: 9)
 camper3 = Camper.create(name: 'Tom', age: 12)
@@ -18,15 +26,17 @@ activity7 = Activity.create(name: 'Canoeing', difficulty: 3)
 activity8 = Activity.create(name: 'Windsurfing', difficulty: 5)
 
 
-# Signup.create(camper: camper1, activity: activity2, time: 11)
-# Signup.create(camper: camper1, activity: activity1, time: 12)
-# Signup.create(camper: camper1, activity: activity4, time: 15)
-# Signup.create(camper: camper2, activity: activity2, time: 11)
-# Signup.create(camper: camper2, activity: activity1, time: 12)
-# Signup.create(camper: camper3, activity: activity4, time: 16)
-# Signup.create(camper: camper3, activity: activity4, time: 16)
-# Signup.create(camper: camper3, activity: activity4, time: 16)
-# Signup.create(camper: camper3, activity: activity4, time: 16)
-# Signup.create(camper: camper4, activity: activity8, time: 16)
-# Signup.create(camper: camper5, activity: activity7, time: 11)
-# Signup.create(camper: camper3, activity: activity4, time: 12)
+Signup.create(camper: camper1, activity: activity2, time: 11)
+Signup.create(camper: camper1, activity: activity1, time: 12)
+Signup.create(camper: camper1, activity: activity4, time: 15)
+Signup.create(camper: camper2, activity: activity2, time: 11)
+Signup.create(camper: camper2, activity: activity1, time: 12)
+Signup.create(camper: camper3, activity: activity4, time: 16)
+Signup.create(camper: camper3, activity: activity4, time: 16)
+Signup.create(camper: camper3, activity: activity4, time: 16)
+Signup.create(camper: camper3, activity: activity4, time: 16)
+Signup.create(camper: camper4, activity: activity8, time: 16)
+Signup.create(camper: camper5, activity: activity7, time: 11)
+Signup.create(camper: camper3, activity: activity4, time: 12)
+
+puts 'done'

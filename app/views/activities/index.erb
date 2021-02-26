@@ -1,3 +1,18 @@
 <h2>Here are All the Activities</h2>
 
+<main>
+
+    <ul>
+
+        <span> These are our activities </span></br>
+
+        <% @activities.each do |activity| %>
+            <%= activity.name %></br>
+
+        <% end %>
+
+    </ul>
+
+</main>
+
 <%# Display a list all of the activities %>
